@@ -311,7 +311,7 @@ local function playerCheck(player, k)
 	end
 
 	WIM_WhoInfo(player, function(info)
-		if info.level >= 10 then
+		if info.level >= 12 then
 			return k()
 		end
 	end)
